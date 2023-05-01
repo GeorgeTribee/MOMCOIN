@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: "Comic Neue";
+    font-family: 'Comic Neue', sans-serif;
 }
 .container a, span{
     color: #FFFFFF;
@@ -22,10 +22,13 @@
     border-radius: 10rem
 }
 .logo {
-    gap: 10px;
+}
+.logo a{
+    cursor: pointer
+    ;
     display: flex;
     align-items: center;
-    justify-content: center;
+    gap: 10px;
 }
 .logo span{
     font-size: 18px;

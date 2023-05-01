@@ -17,6 +17,7 @@
     margin-top: 18px;
     width: 100%;
     max-width: 1128px;
+    gap: 50px;
 }
 
 .content {
@@ -44,7 +45,7 @@
     line-height: 27px;;
 }
 .dogepic img{
-    
+    width: 450px;
 }
 .dogepic {
     width: 100%;

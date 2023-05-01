@@ -7,9 +7,7 @@ const Dogepedia = () => {
   return (
     <div className={styles.container}>
         <div className={styles.dogopediaCOntainer}>
-            <div className={styles.dogopediaImg}>
-                <img src={dogopedia}/>
-            </div>
+            
             <div className={styles.middleContainer}>
                 <p className={styles.padd}>FAQ</p>
                 <p className={styles.border}></p>
@@ -43,7 +41,6 @@ const Dogepedia = () => {
                 </div>
             </div>
         </div>
-        <p className={styles.viewall}>VIEW ALL</p>
     </div>
   )
 }

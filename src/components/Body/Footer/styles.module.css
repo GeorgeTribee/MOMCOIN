@@ -63,10 +63,10 @@
  .nextContainer{
     padding-top: 40px;
     display: flex;
+    justify-content: space-between;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    gap: 40px;    
  }
  .nextContainer ul{
     list-style-type: none;
@@ -77,6 +77,11 @@
     max-width: 258px;
     text-align: center;
  }
+ 
+.childDiv div a{
+   display: flex;
+   flex-direction: column;
+}
  .nextContainer img{
     fill: black; }
  .childTitle, .childDiv img{
@@ -127,3 +132,15 @@
  .lastEl{
     margin-bottom: 40px;
  }
+
+ .childDivLogod{
+   width: 50px;
+   border-radius: 50%;
+ }
+
+ .childFirstCont{
+   display: flex;
+   height: fit-content;
+   align-items: center;
+   gap: 10px;
+}

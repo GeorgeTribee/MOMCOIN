@@ -1,15 +1,14 @@
 import React from 'react'
 import styles from './styles.module.css'
-import aboutDogePic from '../../../assets/body/aboutDoge/doge.webp'
+import aboutDogePic from '../../../assets/body/aboutDoge/aboutImage.png'
 
 const AboutDoge = () => {
   return (
     <div className={styles.container}>
         <div className={styles.container__}>
             <div className={styles.content}>
-                <h2>What is MuskOnMars?</h2>
-                <p>An open-source peer-to-peer digital currency, favoured by Shiba Inus worldwide.</p>
-                <p>At its heart, MuskOnMars is the accidental crypto movement that makes people smile! It is also an opensource peer-to-peer cryptocurrency that utilises blockchain technology, a highly secure decentralised system of storing information as a public ledger that is maintained by a network of computers called nodes. More than this, though, is the ethos of MuskOnMars, summarised in the MuskOnMars Manifesto , and its amazing, vibrant community made up of friendly folks just like you! Learn more.</p>
+                <h2 id='aboutMuskOnMars'>What is MuskOnMars?</h2>
+                <p>MuskOnMars (MOM) is a groundbreaking crypto coin that embodies the innovative spirit of Elon Musk and his vision for the future of space exploration. With MOM, investors can support the development of space technologies and the eventual colonization of Mars. Join the movement towards a new frontier with MuskOnMars (MOM) and be a part of history in the making.</p>
             </div>
             <div className={styles.dogepic}>
                 <img src={aboutDogePic}/>

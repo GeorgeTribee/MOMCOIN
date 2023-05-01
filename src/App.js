@@ -16,8 +16,7 @@ function App() {
       <AboutDoge />
       <Doge />
       <div className={styles.dogepedia}>
-
-      <Dogepedia />
+        <Dogepedia />
       </div>
 
       <Footer />

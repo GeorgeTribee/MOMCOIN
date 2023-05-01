@@ -29,10 +29,14 @@
     margin-top: 68px;
 }
 .iframe{
-    width: 100%;
-    max-width: 576px;
+    
     padding: 0px 12px;
 
+}
+
+.iframe video{
+    width: 559px;
+    height: 320px;
 }
 
 .rightSide h2{
@@ -52,7 +56,7 @@
 .socials{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     font-size: 35px;
     padding: 0px 120px;
     margin-top: 63px;
