@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Comic Neue', sans-serif;
+    font-family: 'JetBrains Mono', monospace;
 }
 .container a, span{
     color: #FFFFFF;
@@ -64,7 +64,7 @@
     max-width: 100%;
 }
 .navigation__leftside a {
-    font-size: 15.7px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 24.62px;
 }

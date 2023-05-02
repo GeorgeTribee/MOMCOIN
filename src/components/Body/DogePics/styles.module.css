@@ -1,5 +1,5 @@
 *{
-    font-family: "Comic Neue";
+    font-family: 'JetBrains Mono', monospace;
 }
 
 .picContainer{
@@ -25,13 +25,11 @@
     width: 100%;
     margin: 0 auto;
     display: flex;
-    gap: 20px;
+    gap: 40px;
     margin-top: 68px;
 }
 .iframe{
-    
     padding: 0px 12px;
-
 }
 
 .iframe video{
@@ -39,17 +37,18 @@
     height: 320px;
 }
 
+
+
 .rightSide h2{
     font-size: 45px;
     color: #212529;
-    padding-top: 20px;
     padding-bottom: 16px;
 }
 
 .rightSide p {
     line-height: 30.8px;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 16px;
     color: rgb(34, 34, 34);
 }
 

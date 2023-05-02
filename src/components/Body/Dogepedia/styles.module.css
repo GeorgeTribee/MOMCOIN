@@ -3,7 +3,7 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    font-family: "Comic Neue";
+    font-family: 'JetBrains Mono', monospace;
 }
 
 .dogopediaCOntainer{
@@ -20,10 +20,15 @@
 
 .lastPart{
     display: flex;
+    
+}
+
+.lastPart div{
+    display: block;
+    width: 100%;
 }
 .lastPart {
     padding-left: 20px;
-
     margin-bottom: 5px;
     width: 100%;
     max-width: 480px;
@@ -31,10 +36,7 @@
     display: flex;
     align-items: center;
 }
-.last{
-    gap: 15px;
-    margin-top: 25px;
-}
+
 .lastPart p {
     font-size: 18px;
     color: #222222;
@@ -76,8 +78,10 @@
     font-weight: bold;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center ;
+    gap: 15px;
+    margin-top: 25px;
 }
 
 .viewall{
@@ -99,4 +103,12 @@
     left: 0;
     right: 0;
     bottom: 0;
+}
+
+.lastPart__hidden{
+    padding: 30px 0 30px 50px;
+    width: 100%;
+    max-width: 420px;
+    line-height: 25px;
+    color: rgb(34, 34, 34);
 }

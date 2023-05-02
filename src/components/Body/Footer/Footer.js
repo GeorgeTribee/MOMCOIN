@@ -16,7 +16,7 @@ const Footer = () => {
             
             <div className={styles.childDiv}>
                 <p className={styles.childTitle}>Contact</p>
-                <div>
+                <div className={styles.childItem}>
                     <p>muskonmarscoin@gmail.com</p>
                     <a href='https://twitter.com/muskonmarscoin'>
                         <img src={twitter}/>

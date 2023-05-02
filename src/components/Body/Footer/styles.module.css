@@ -2,7 +2,7 @@
 
 
 .container__{
-    font-family: "Comic Neue";
+   font-family: 'JetBrains Mono', monospace;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -130,6 +130,7 @@
 
  .lastEl{
     margin-bottom: 40px;
+    margin-top: 5px;
  }
 
  .childDivLogod{
