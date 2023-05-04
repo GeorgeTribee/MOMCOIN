@@ -18,7 +18,7 @@ const Footer = () => {
                 <p className={styles.childTitle}>Contact</p>
                 <div className={styles.childItem}>
                     <p>muskonmarscoin@gmail.com</p>
-                    <a href='https://twitter.com/muskonmarscoin'>
+                    <a href='https://twitter.com/muskonmarscoin' target='_blank'>
                         <img src={twitter}/>
                     </a>
                 </div>
@@ -29,17 +29,15 @@ const Footer = () => {
                     <li>So Home</li>
                     <li>What is MOM?</li>
                     <li>Very Community</li>
-                    <li>So MOM</li>
                 </ul>
             </div>
             <div className={styles.childDiv}>
-                <p className={styles.childTitle}>Foundation</p>
+                <p className={styles.childTitle}>About</p>
                 <ul className={styles.childItem}>
                     <li>About</li>
-                    <li>Manifesto</li>
-                    <li>Advisor</li>
-                    <li>Blog</li>
-                    <li>Trailmap</li>
+                    <li>Documentation</li>
+                    <li>Tokenomics</li>
+                    <li>Resources</li>
                 </ul>
             </div>
         </div>
@@ -48,7 +46,7 @@ const Footer = () => {
         <div className={styles.lastContainer}>
             <p className={styles.lastBorder}></p>
             <p>Contributors</p>
-            <p className={styles.lastEl}>© 2013-2023 | The MuskOnMars Foundation & MuskOnMars Project. All rights reserved.</p>
+            <p className={styles.lastEl}>© 2023 | The MuskOnMars Foundation & MuskOnMars Project. All rights reserved.</p>
         </div>
     </div>
   )

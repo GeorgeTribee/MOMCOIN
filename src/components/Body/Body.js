@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './body.module.css'
-import video from '../../assets/body/video.mp4'
+import video from '../../assets/body/socialLogos/video.mp4'
 import dogesvg from '../../assets/momLogo.png'
 const Body = () => {
   return (
