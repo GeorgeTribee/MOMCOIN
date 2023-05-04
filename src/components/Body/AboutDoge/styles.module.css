@@ -104,6 +104,29 @@
 .pickwallet + p{
     width: fit-content;
     padding: 6px 12px;
-    border: 1px solid black;
+    border: 1px solid rgb(242, 242, 242);
     border-radius: 0.25rem;
+}
+
+.clipBoardButton{
+    padding-left: 5px;
+}
+
+.addressInput{
+    padding: 5px 40px 5px 5px;
+    border-radius: 18px;
+    background-color: rgb(201, 201, 201);
+}
+
+.clipBoardButton{
+    color: red;
+    padding: 0px 5px;
+    position: relative;
+    right: 30px;
+    top: 3px;
+    border: none;
+    background: transparent;
+}
+.clipBoardButton img{
+    width: 18px;
 }

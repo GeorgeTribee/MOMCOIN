@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './body.module.css'
 import video from '../../assets/body/video.mp4'
-import dogesvg from '../../assets/MuskOnMars.png'
+import dogesvg from '../../assets/momLogo.png'
 const Body = () => {
   return (
     <div className={styles.container}>
@@ -12,7 +12,7 @@ const Body = () => {
         <div className={styles.content}>
             <img src={dogesvg}/>
             <p className={styles.dogecoin}>MuskOnMars</p>
-            <p className={styles.paragraph}>the people's cryptocurrency</p>
+            <p className={styles.paragraph}>"Invest in the future of space with Musk On Mars"</p>
         </div>
     </div>
   )
