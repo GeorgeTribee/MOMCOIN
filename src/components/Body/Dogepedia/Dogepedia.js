@@ -16,7 +16,7 @@ const Dogepedia = () => {
 
   return (
     <div className={styles.container}>
-        <div className={styles.dogopediaCOntainer}>
+        <div id='FAQ' className={styles.dogopediaCOntainer}>
             
             <div className={styles.middleContainer}>
                 <p className={styles.padd}>FAQ</p>

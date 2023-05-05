@@ -20,14 +20,13 @@ const Header = () => {
         <ul className={styles.navigation__leftside}>
           <li><a href='#'>So Home</a></li>
           <li><a href='#aboutMuskOnMars'>What is MOM?</a></li>
+          <li><a href='#howToBuy'>How to buy?</a></li>
           <li><a href='#'>Very Community</a></li>
           <li className={styles.dogopedia}>
             <a className={styles.dogShow} href='#'>So MOM
               <div className={styles.show}>
-                <p>Documentation</p>
-                <p>FAQ</p>
-                <p>How Tos</p>
-                <p>Resources</p>
+                <p><a href='#FAQ'>FAQ</a></p>
+                <p><a href='https://muskonmars.gitbook.io/muskonmars-mom/?fbclid=IwAR2SRIZsZ6IqyENb1XD158eKiqh8cDOTN-T_KrSMxyac4FGeMsBAYMC1jIU'>Whitepaper</a></p>
               </div>
             </a>
             <span>▾</span>

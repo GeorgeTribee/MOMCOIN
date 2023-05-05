@@ -7,7 +7,7 @@ import copyIcon from '../../../assets/body/arrow/copy-solid.svg'
 const AboutDoge = () => {
   return (
     <div className={styles.container}>
-        <div className={styles.container__}>
+        <div id='aboutMuskOnMars' className={styles.container__}>
             <div className={styles.content}>
                 <h2>What is MuskOnMars?</h2>
                 <p>ElonOnMask (MOM) is a groundbreaking crypto coin that embodies the innovative spirit of Elon Musk and his vision for the future of space exploration. With MOM, investors can support the development of space technologies and the eventual colonization of Mars. Join the movement towards a new frontier with ElonOnMask (MOM) and be a part of history in the making.
@@ -18,7 +18,7 @@ const AboutDoge = () => {
             </div>
         </div>
 
-        <div className={styles.gettingStarted}>
+        <div id='howToBuy' className={styles.gettingStarted}>
             <h2>Getting started</h2>
             <div className={styles.getting__container}>
                 <div className={styles.getting__child}>
