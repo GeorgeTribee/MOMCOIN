@@ -17,7 +17,7 @@ import coingecko from './assets/coingecko.webp'
 
 const Wallets = () => {
   const items = [
-    {name: 'uniswap', img: uniswap},
+    {name: 'uniswap', img: uniswap, href: 'https://app.uniswap.org/?fbclid=IwAR2q-pTB5qFsbRfmB-S5mixI9eNmPNXeGOsEduXvq9pkaX6vvzqWoGQciZg#/swap'},
     {name: 'mexc', img: mexc},
     {name: 'gate.io', img: gate},
     {name: 'huobi', img: huobi},
@@ -32,6 +32,7 @@ const Wallets = () => {
     {name: 'coinmarketcap', img: coinmarketcap},
     {name: 'coingecko', img: coingecko},
   ]
+    
 
   return (
     <div className={styles.main_container}>
@@ -39,13 +40,16 @@ const Wallets = () => {
           <div className={styles.content}>
               <div className={styles.each}>
                 {items.map(each => 
-                  <div key={each.name} className={styles.each_map}>
-                    <p>{each.name}</p>
-                    <div>
-                      <img src={each.img}/>
+                  <div>
+                      <a href={each.href}>
+                        <div key={each.name} className={styles.each_map}>
+                            <p>{each.name}</p>
+                            <div>
+                              <img src={each.img}/>
+                            </div>
+                        </div>
+                      </a>
                     </div>
-                  </div>
-              
               )}
               </div>
           </div>
