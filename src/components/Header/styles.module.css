@@ -146,17 +146,39 @@
 @media only screen and (max-width: 768px) {
    .hamburger{
     display: block;
-   }
+}
+
+    .navigation{
+        display: none;
+    }
+    .navigation li{
+        display: block;
+    }
    .container{
    }
-   .navigation ul{
-    display: none;
+
+   .hamburger .navigation__leftside{
+    display: block;
    }
-   .container{
-    padding: 0;
-    margin: 0;
+   .hamburger ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    position: absolute;
     width: 100%;
-    max-width: 760px;
-    margin: 0;
+    justify-content: space-between;
+    top: 70px;
+    right: 0;
+    left: 0;    
+    background-color: #0B0B0B;
    }
+   .hamburger li {
+    display: flex;
+    justify-content: center;
+}
+.navigation__leftside li{
+    display: flex;
+    padding-bottom: 20px;
+}
+
 }

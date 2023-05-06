@@ -64,11 +64,16 @@ a{
     .main_container{
     }
     
-    .each{
+    .content, .each{
         width: 100%;
-        max-width: 450px;
+        max-width: 500px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
     }
     .each_map{
         width: 100%;
+        max-width: 500px;
+        display: flex;
     }
 }
