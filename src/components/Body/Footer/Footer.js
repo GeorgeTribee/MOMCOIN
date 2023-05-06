@@ -5,7 +5,7 @@ import twitter from '../../../assets/body/socialLogos/twitter.svg'
 const Footer = () => {
   return (
     <div className={styles.container}>
-        <span>Find out more about MuskOnMars</span>
+        <span className={styles.container_span}>Find out more about MuskOnMars</span>
         <div className={styles.container__}>
             
         </div>

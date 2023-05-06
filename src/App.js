@@ -14,6 +14,7 @@ function App() {
         <Header />
       </div>
       <Body />
+      
       <Wallets />
       <AboutDoge />
       <Doge />

@@ -18,19 +18,19 @@ import coingecko from './assets/coingecko.webp'
 const Wallets = () => {
   const items = [
     {name: 'uniswap', img: uniswap, href: 'https://app.uniswap.org/?fbclid=IwAR2q-pTB5qFsbRfmB-S5mixI9eNmPNXeGOsEduXvq9pkaX6vvzqWoGQciZg#/swap'},
-    {name: 'mexc', img: mexc},
-    {name: 'gate.io', img: gate},
-    {name: 'huobi', img: huobi},
-    {name: 'poloniex', img: poloniex},
-    {name: 'okx dex', img: okxdex},
-    {name: 'Ibank', img: ibank},
-    {name: 'bingx', img: bingx},
-    {name: 'trustwallet', img: trustwallet},
-    {name: 'digifinex', img: digifinex},
-    {name: 'btcex', img: btcex},
-    {name: 'dextools', img: dextools},
-    {name: 'coinmarketcap', img: coinmarketcap},
-    {name: 'coingecko', img: coingecko},
+    // {name: 'mexc', img: mexc},
+    // {name: 'gate.io', img: gate},
+    // {name: 'huobi', img: huobi},
+    // {name: 'poloniex', img: poloniex},
+    // {name: 'okx dex', img: okxdex},
+    // {name: 'Ibank', img: ibank},
+    // {name: 'bingx', img: bingx},
+    // {name: 'trustwallet', img: trustwallet},
+    // {name: 'digifinex', img: digifinex},
+    // {name: 'btcex', img: btcex},
+    // {name: 'dextools', img: dextools},
+    // {name: 'coinmarketcap', img: coinmarketcap},
+    // {name: 'coingecko', img: coingecko},
   ]
     
 

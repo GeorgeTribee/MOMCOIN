@@ -4,6 +4,7 @@ import image from '../../assets/momLogo.png'
 import shirtSVG from '../../assets/headerlogo/shirt-solid.svg'
 import togglerSVG from '../../assets/headerlogo/theme-toggler.svg'
 import englandSVG from '../../assets/headerlogo/england.svg'
+import hamburgerLogo from './hamburger.svg'
 
 const Header = () => {
   const [dogopedia, setDogopedia] = useState(false);
@@ -31,8 +32,10 @@ const Header = () => {
             </a>
             <span>▾</span>
           </li>
-         
         </ul>
+        <div className={styles.hamburger}>
+          <img src={hamburgerLogo}/>
+        </div>
         </nav>
       </div>
     </div>

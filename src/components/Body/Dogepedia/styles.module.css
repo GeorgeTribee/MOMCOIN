@@ -112,3 +112,14 @@
     line-height: 25px;
     color: rgb(34, 34, 34);
 }
+
+
+@media only screen and (max-width: 768px) {
+    .dogopediaCOntainer{
+        flex-wrap: wrap;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+}

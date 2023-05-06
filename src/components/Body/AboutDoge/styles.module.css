@@ -130,3 +130,22 @@
 .clipBoardButton img{
     width: 18px;
 }
+
+@media only screen and (max-width: 768px) {
+    .container__ .dogepic{
+        display: none;
+    }
+    .container__{
+        width: auto;
+        display: flex;
+        margin: 0 auto;
+    }
+    .content{
+        margin-left: auto;
+    }
+
+    .getting__container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

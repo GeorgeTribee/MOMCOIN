@@ -49,3 +49,21 @@ a{
 }
 
 
+/* @media all and (max-width: 1024px){
+    
+    .each {
+        display: flex;
+        justify-content: center;
+    }
+    .each_map{
+        width: 217px;
+    }
+} */
+
+@media only screen and (max-width: 768px) {
+    .main_container{
+    }
+    
+    .each_map{
+    }
+}
