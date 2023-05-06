@@ -64,6 +64,11 @@ a{
     .main_container{
     }
     
+    .each{
+        width: 100%;
+        max-width: 450px;
+    }
     .each_map{
+        width: 100%;
     }
 }
