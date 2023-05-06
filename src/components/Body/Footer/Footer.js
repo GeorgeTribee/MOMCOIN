@@ -18,7 +18,7 @@ const Footer = () => {
                 <p className={styles.childTitle}>Contact</p>
                 <div className={styles.childItem}>
                     <p>muskonmarscoin@gmail.com</p>
-                    <a href='https://twitter.com/muskonmarscoin' target='_blank'>
+                    <a href='https://twitter.com/muskonmarscoin' target='_blank' id='community'>
                         <img src={twitter}/>
                     </a>
                 </div>
@@ -28,16 +28,18 @@ const Footer = () => {
                 <ul className={styles.childItem}>
                     <li>So Home</li>
                     <li>What is MOM?</li>
+                    <li>How to buy?</li>
                     <li>Very Community</li>
+                    <li>So MOM</li>
                 </ul>
             </div>
             <div className={styles.childDiv}>
                 <p className={styles.childTitle}>About</p>
                 <ul className={styles.childItem}>
                     <li>About</li>
+                    <li>Whitepaper</li>
+                    <li>FAQ</li>
                     <li>Documentation</li>
-                    <li>Tokenomics</li>
-                    <li>Resources</li>
                 </ul>
             </div>
         </div>
