@@ -21,12 +21,12 @@ const Header = () => {
           <li><a href='#'>So Home</a></li>
           <li><a href='#aboutMuskOnMars'>What is MOM?</a></li>
           <li><a href='#howToBuy'>How to buy?</a></li>
-          <li><a href='#'>Very Community</a></li>
+          <li><a href='#community'>Very Community</a></li>
           <li className={styles.dogopedia}>
             <a className={styles.dogShow} href='#'>So MOM
               <div className={styles.show}>
                 <p><a href='#FAQ'>FAQ</a></p>
-                <p><a href='https://muskonmars.gitbook.io/muskonmars-mom/?fbclid=IwAR2SRIZsZ6IqyENb1XD158eKiqh8cDOTN-T_KrSMxyac4FGeMsBAYMC1jIU'>Whitepaper</a></p>
+                <p><a href='https://muskonmars.gitbook.io/muskonmars-mom/?fbclid=IwAR2SRIZsZ6IqyENb1XD158eKiqh8cDOTN-T_KrSMxyac4FGeMsBAYMC1jIU' target='_blank'>Whitepaper</a></p>
               </div>
             </a>
             <span>▾</span>
