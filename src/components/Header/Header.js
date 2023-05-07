@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styles from './styles.module.css'
-import image from '../../assets/momLogo.png'
+import image from '../../assets/momLogoo.png'
 import shirtSVG from '../../assets/headerlogo/shirt-solid.svg'
 import togglerSVG from '../../assets/headerlogo/theme-toggler.svg'
 import englandSVG from '../../assets/headerlogo/england.svg'
