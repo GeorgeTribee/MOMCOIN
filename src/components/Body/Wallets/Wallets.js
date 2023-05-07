@@ -41,7 +41,7 @@ const Wallets = () => {
               <div className={styles.each}>
                 {items.map(each => 
                   <div>
-                      <a href={each.href}>
+                      <a target='_blank' href={each.href}>
                         <div key={each.name} className={styles.each_map}>
                             <p>{each.name}</p>
                             <div>

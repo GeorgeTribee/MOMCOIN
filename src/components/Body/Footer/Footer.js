@@ -36,10 +36,10 @@ const Footer = () => {
             <div className={styles.childDiv}>
                 <p className={styles.childTitle}>About</p>
                 <ul className={styles.childItem}>
-                    <li>About</li>
-                    <li>Whitepaper</li>
-                    <li>FAQ</li>
-                    <li>Documentation</li>
+                    <li><a href='https://muskonmars.gitbook.io/muskonmars-mom/?fbclid=IwAR3--SBxZUVLHUHK2swgQCHy1aYHmrPxFAZbWC9BnhWrqv6gzFE1VfuO-uc' target='_blank'>About</a></li>
+                    <li><a href='https://muskonmars.gitbook.io/muskonmars-mom/?fbclid=IwAR3YHoGjB5uZPTxeYRoQdGw22WnLB-pRDwbFAWS6q_MSjsBfeuC2KMZWjMI' target='_blank'>Whitepaper</a></li>
+                    <li><a href='https://muskonmars.gitbook.io/muskonmars-mom/faq/what-is-usdmom-token?fbclid=IwAR29vSGbuzUfnuI8Mb8K7SkVhC7xHRrc-aEQM1tMelgBx-5k-Fj05ZSz-QU' target='_blank'>FAQ</a></li>
+                    <li><a href='https://muskonmars.gitbook.io/muskonmars-mom/?fbclid=IwAR1mc9BxA5mqBKDvQJMgjgMvEu9oQ1BZljJDi_opKq_xc8Gt2nUeWcGLvuo' target='_blank'>Documentation</a></li>
                 </ul>
             </div>
         </div>
