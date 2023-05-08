@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <div className={styles.container}>
       <div className={styles.logo}>
-        <a href='muskonmars.xyz'>
+        <a href='#'>
           <img src={image}/>
           <span>MuskOnMars</span>
         </a>
